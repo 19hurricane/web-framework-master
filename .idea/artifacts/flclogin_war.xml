@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="flclogin:war">
+    <output-path>$PROJECT_DIR$/flclogin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>flclogin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="flclogin.war">
+      <element id="artifact" artifact-name="flclogin:war exploded" />
+    </root>
+  </artifact>
+</component>
